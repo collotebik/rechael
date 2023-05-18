@@ -1,0 +1,1943 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:image" content="../../../../chptermerchant-bucket.s3.amazonaws.com/media/20201213_184830.jpg" />
+	<title> Checkout Page </title>
+
+	<script src="https://js.stripe.com/v3/"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" id="applicationStylesheet"
+		href="styles/MobileCheckoutLinkPayPage29d3.css" />
+	<script src="../../../../code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" type='text/css'
+		href="../../../../cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css">
+	<script src="../../../../cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+	<script
+		src="../../../../chptermerchant-bucket.s3.amazonaws.com/static/js/semanticdd74.js?AWSAccessKeyId=AKIA5ENPD2MWPRJEYPPP&amp;Signature=Oym%2BRG0hVRiYe7iTXL0xr2PQFKI%3D&amp;Expires=1684238517"
+		defer></script>
+	<script
+		src="../../../../chptermerchant-bucket.s3.amazonaws.com/static/js/CheckoutMobile1167.js?AWSAccessKeyId=AKIA5ENPD2MWPRJEYPPP&amp;Signature=1ztVLV%2FPXGqjJ47dvhCr0YewzCc%3D&amp;Expires=1684238517"
+		defer></script>
+	<script
+		src="../../../../chptermerchant-bucket.s3.amazonaws.com/static/js/CheckoutCart134c.js?AWSAccessKeyId=AKIA5ENPD2MWPRJEYPPP&amp;Signature=WskBV9MTc%2FbzIUHzGRjfGOuuEJM%3D&amp;Expires=1684238517"
+		defer></script>
+	<script
+		src="../../../../chptermerchant-bucket.s3.amazonaws.com/static/js/CheckoutLNM37f0.js?AWSAccessKeyId=AKIA5ENPD2MWPRJEYPPP&amp;Signature=JzZ7KGMz5SqQEiEEgJ0LUvCTOcA%3D&amp;Expires=1684238517"
+		defer></script>
+	<script id="applicationScript" type="text/javascript"
+		src="../../../../chptermerchant-bucket.s3.amazonaws.com/static/js/MobileCheckoutLinkPayPagef3ce.js?AWSAccessKeyId=AKIA5ENPD2MWPRJEYPPP&amp;Signature=YIRTttGU57SKkfBAQ8pFuICyt%2Bc%3D&amp;Expires=1684238517"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;libraries=places&amp;key=AIzaSyBH4GlpnjVT-pJQHlcO46jigiLK5lfcUm8"></script>
+</head>
+
+<body>
+	<input type="text" id="prod_pricee" value="4500.0" hidden />
+	<input type="text" id="total_amount_fee" value="4500.0" hidden />
+	<input type="text" id="service_fee_amount" value="0.0" hidden />
+	<div id="MobileCheckoutLinkPayPage">
+		<div id="MobileCLPayPage">
+			<div ifd="Group_5233">
+
+				<div id="Group_5220">
+					<div id="Group_5220_cl">
+						<svg class="Rectangle_2210">
+							<rect id="Rectangle_2210" rx="7" ry="7" x="0" y="0" width="139" height="138">
+							</rect>
+						</svg>
+						<img id="imagecontain2"
+							src="../../../../chptermerchant-bucket.s3.amazonaws.com/media/20201213_184830.jpg">
+					</div>
+					<div id="KES_1490000" data-value="4500.0"> KES. 4,500.00 </div>
+					<div id="Adidas_Ultraboost"> 1st Individual Therapy </div>
+					<div id="The_most_comfortable_running_s">
+						<span>Individual therapy is a form of therapy in which the
+							client is treated on a one-on-one basis with a therapist.
+							Individual therapy allows the therapist and client to focus o
+							n each other, building a rapport and working together
+							to solve the client’s issue. We provide this help through
+							various avenues FACE TO FACE or ONLINE.
+							Online therapy: It’s also known as e-therapy, e-counseling,
+							teletherapy, or cyber-counseling. .</span>
+					</div>
+
+					<div id="Group_5254_x">
+						<div id="product_checkout" class="cart item counter link-product">
+							<div id="reduce_cart_item_link_product_1" class="reduce cart item link-product">
+								<div id="grey_button_1">
+									<svg class="Rectangle_2057_gi">
+										<rect id="Rectangle_2057_gi" rx="7" ry="7" x="0" y="0" width="45" height="40">
+										</rect>
+									</svg>
+									<div id="minus">
+										<svg class="Rectangle_2271">
+											<rect id="Rectangle_2271" rx="0" ry="0" x="0" y="0" width="24" height="24">
+											</rect>
+										</svg>
+										<svg class="Path_9178" viewBox="4 11 16 2">
+											<path id="Path_9178"
+												d="M 19 13 L 5 13 C 4.447715282440186 13 4 12.55228424072266 4 12 C 4 11.44771480560303 4.447715282440186 11 5 11 L 19 11 C 19.55228424072266 11 20 11.44771575927734 20 12 C 20 12.55228519439697 19.55228424072266 13 19 13 Z">
+											</path>
+										</svg>
+									</div>
+									<!-- <i id="minus_small_icon_1" class="black minus icon"></i> -->
+								</div>
+							</div>
+							<div id="add_cart_item_link_product_1" class="add cart item link-product">
+								<div id="grey_button_2">
+									<svg class="Rectangle_2057_gi">
+										<rect id="Rectangle_2057_gi" rx="7" ry="7" x="0" y="0" width="45" height="40">
+										</rect>
+									</svg>
+									<div id="plus">
+										<svg class="Rectangle_2272">
+											<rect id="Rectangle_2272" rx="0" ry="0" x="0" y="0" width="24" height="24">
+											</rect>
+										</svg>
+										<svg class="Path_9179" viewBox="4 4 16 16">
+											<path id="Path_9179"
+												d="M 19 11 L 13 11 L 13 5 C 13 4.447715282440186 12.55228424072266 4 12 4 C 11.44771480560303 4 11 4.447715282440186 11 5 L 11 11 L 5 11 C 4.447715282440186 11 4 11.44771575927734 4 12 C 4 12.55228519439697 4.447715282440186 13 5 13 L 11 13 L 11 19 C 11 19.55228424072266 11.44771480560303 20 12 20 C 12.55228424072266 20 13 19.55228424072266 13 19 L 13 13 L 19 13 C 19.55228424072266 13 20 12.55228424072266 20 12 C 20 11.44771480560303 19.55228424072266 11 19 11 Z">
+											</path>
+										</svg>
+									</div>
+									<!-- <i id="plus_small_icon_1" class="black plus icon"></i> -->
+								</div>
+							</div>
+							<svg class="Rectangle_2057_ge">
+								<rect id="Rectangle_2057_ge" rx="7" ry="7" x="0" y="0" width="140" height="40">
+								</rect>
+							</svg>
+							<div id="grey_button_3" onClick="selectbox()"> More Products </div>
+							<div id="product_counter_link_product_1" class="product counter link-product-1">
+								<input type="text" id="product_counter_input" value="1" />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="Group_5224">
+					<svg class="Rectangle_2211">
+						<rect id="Rectangle_2211" rx="7" ry="7" x="0" y="0" width="368.49" height="51.481">
+						</rect>
+					</svg>
+
+					<a href="http://chpter.co/PSYCHOLOGISTRECHAELMBUGWA" style="text-decoration: none;">
+
+
+						<div id="All">
+							<span id="company">PSYCHOLOGIST RECHAEL MBUGWA</span>
+						</div>
+
+					</a>
+					<div id="Group_5247">
+						<svg class="Rectangle_2221">
+							<rect id="Rectangle_2221" rx="7" ry="7" x="0" y="0" width="25" height="25">
+							</rect>
+						</svg>
+						<div id="Layer_2">
+							<div id="radio-button-on">
+								<svg class="Rectangle_2222">
+									<rect id="Rectangle_2222" rx="0" ry="0" x="0" y="0" width="15" height="15">
+									</rect>
+								</svg>
+								<svg class="Path_9137" viewBox="2 2 12.813 12.813">
+									<path id="Path_9137"
+										d="M 8.406643867492676 2 C 4.868351936340332 2 2 4.868351936340332 2 8.406643867492676 C 2 11.94493389129639 4.868351936340332 14.81328678131104 8.406643867492676 14.81328678131104 C 11.94493389129639 14.81328678131104 14.81328678131104 11.94493389129639 14.81328678131104 8.406643867492676 C 14.81328678131104 4.868351936340332 11.94493389129639 2 8.406643867492676 2 Z M 8.406643867492676 13.53195762634277 C 5.576010227203369 13.53195762634277 3.281328678131104 11.23727512359619 3.281328678131104 8.406643867492676 C 3.281328678131104 5.576010227203369 5.576010227203369 3.281328678131104 8.406643867492676 3.281328678131104 C 11.23727512359619 3.281328678131104 13.53195762634277 5.576010227203369 13.53195762634277 8.406643867492676 C 13.53195762634277 11.23727512359619 11.23727512359619 13.53195762634277 8.406643867492676 13.53195762634277 Z">
+									</path>
+								</svg>
+								<svg class="Path_9138" viewBox="7 7 6.407 6.407">
+									<path id="Path_9138"
+										d="M 10.20332145690918 7 C 8.434176445007324 7 7 8.434176445007324 7 10.20332145690918 C 7 11.97246742248535 8.434176445007324 13.40664386749268 10.20332145690918 13.40664386749268 C 11.97246742248535 13.40664386749268 13.40664386749268 11.97246742248535 13.40664386749268 10.20332145690918 C 13.40664386749268 8.434176445007324 11.97246742248535 7 10.20332145690918 7 Z M 10.20332145690918 12.12531471252441 C 9.141834259033203 12.12531471252441 8.281329154968262 11.26480960845947 8.281329154968262 10.20332145690918 C 8.281329154968262 9.141834259033203 9.141834259033203 8.281329154968262 10.20332145690918 8.281329154968262 C 11.26480960845947 8.281329154968262 12.12531471252441 9.141834259033203 12.12531471252441 10.20332145690918 C 12.12531471252441 11.26480960845947 11.26480960845947 12.12531471252441 10.20332145690918 12.12531471252441 Z">
+									</path>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div id="Group_5250">
+						<div id="Layer_2_de" onClick="getproductvalues()">
+							<a onClick="selectbox()">
+								<div id="shopping-bag">
+									<div id="AddtoCart">
+									</div>
+									<svg class="Rectangle_2220">
+										<rect id="Rectangle_2220" rx="0" ry="0" x="0" y="0" width="24" height="24">
+										</rect>
+									</svg>
+									<svg class="Path_9135" viewBox="3 3 18 18">
+										<path id="Path_9135"
+											d="M 20.1200008392334 6.710000038146973 L 17.29000091552734 3.880000114440918 C 16.72793197631836 3.317230224609375 15.96538257598877 3.0007004737854 15.17000102996826 3 L 8.829999923706055 3 C 8.034619331359863 3.0007004737854 7.272069931030273 3.317230224609375 6.710000514984131 3.880000591278076 L 3.880000114440918 6.710000038146973 C 3.317230939865112 7.272068977355957 3.000700712203979 8.034618377685547 3.000000238418579 8.829999923706055 L 3 18 C 3 19.6568546295166 4.343145370483398 21 5.999999523162842 21 L 18 21 C 19.6568546295166 21 21 19.6568546295166 21 18 L 21 8.829999923706055 C 20.99930191040039 8.034618377685547 20.68277168273926 7.272068977355957 20.12000274658203 6.709999084472656 Z M 8.120000839233398 5.289999961853027 C 8.31163501739502 5.107266902923584 8.56523323059082 5.003684043884277 8.829999923706055 5.000000953674316 L 15.17000007629395 5 C 15.43476676940918 5.003684520721436 15.6883659362793 5.107266902923584 15.88000011444092 5.290000438690186 L 17.59000015258789 7 L 6.409999847412109 7 L 8.120000839233398 5.289999961853027 Z M 18 19 L 6 19 C 5.447715282440186 19 5 18.55228424072266 5 18 L 5 9 L 19 9 L 19 18 C 19 18.55228424072266 18.55228424072266 19 18 19 Z">
+										</path>
+									</svg>
+									<svg class="Path_9136" viewBox="8 11 8 5">
+										<path id="Path_9136"
+											d="M 15 11 C 14.44771480560303 11 14 11.44771575927734 14 12 C 14 13.10456943511963 13.10456943511963 14 12 14 C 10.89543056488037 14 10 13.10456943511963 10 12 C 10 11.44771480560303 9.552284240722656 11 9 11 C 8.447714805603027 11 8 11.44771575927734 8 12 C 8 14.20913887023926 9.790861129760742 16 12 16 C 14.20913887023926 16 16 14.20913887023926 16 12 C 16 11.44771480560303 15.55228424072266 11 15 11 Z">
+										</path>
+									</svg>
+								</div>
+							</a>
+						</div>
+
+						<div id="Group_5239">
+							<svg class="Ellipse_776">
+								<ellipse id="Ellipse_776" rx="7.5" ry="7.5" cx="7.5" cy="7.5">
+								</ellipse>
+							</svg>
+							<div id="ID1"> 1 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<form id="checkout_payment_form" action="https://chpter.co/checkout/checkout-payment/" method="post">
+				<input type="hidden" name="csrfmiddlewaretoken"
+					value="xffoztrdiry3PDHrqvIRFSHAEnJxGebRhMSGQn8ZtVufU5xNXEAvoVWYo3nqBrz1">
+
+
+				<div id="Group_6092_card">
+					<div id="Group_3858_hq_card">
+						<div id="Payment_Method_card">
+							<span>Payment Method</span>
+						</div>
+						<div id="Group_6097_card">
+							<div class="ui cards">
+								<div class="card">
+									<div class="content">
+										<!-- <svg class="Rectangle_2002_ht_card">
+									<rect id="Rectangle_2002_ht_card" rx="7" ry="7" x="0" y="0" width="100" height="50">
+									</rect>
+								</svg> -->
+										<img id="Image_14_card"
+											src="../../../../chptermerchant-bucket.s3.amazonaws.com/static/images/mpesaa41d.png?AWSAccessKeyId=AKIA5ENPD2MWPRJEYPPP&amp;Signature=3pDxWGI90IQH8RTNVPhSGmmYNMs%3D&amp;Expires=1684238517">
+
+										<div id="Mpesa_card">
+											<span>Mpesa</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style>
+							.ui.card>.content,
+							.ui.cards>.card>.content {
+								width: 100px;
+								height: 50px;
+								background: rgba(255, 255, 255, 0.94);
+								border-radius: 6px;
+							}
+						</style>
+						<div id="Group_6098_card" class="Card_Checkout">
+							<div class="ui cards">
+								<div class="card">
+									<div class="content">
+										<div id="Card_card">
+											<span>Card</span>
+										</div>
+										<div id="credit-card_card">
+											<i class="credit card outline icon"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style>
+							.ui.card>.content,
+							.ui.cards>.card>.content {
+								width: 100px;
+								height: 50px;
+								background: rgba(255, 255, 255, 0.94);
+								border-radius: 6px;
+							}
+						</style>
+						<div id="Group_6117_card">
+							<div class="ui cards">
+								<div class="card">
+									<div class="content">
+										<img id="Image_17_card"
+											src="../../../../chptermerchant-bucket.s3.amazonaws.com/static/images/paypal-logo201d.png?AWSAccessKeyId=AKIA5ENPD2MWPRJEYPPP&amp;Signature=YyqXtWa0faMIJvCXV6NtbHBcGf8%3D&amp;Expires=1684238517">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Group_5245">
+					<div id="Group_3858_eh">
+						<svg class="Rectangle_2002_ei">
+							<rect id="Rectangle_2002_ei" rx="7" ry="7" x="0" y="0" width="347" height="46">
+							</rect>
+						</svg>
+						<div>
+							<input id="Input_email_address" type="text" name="fullname" placeholder="Input full name">
+						</div>
+
+
+						<div id="Phone_Number_Invalid_">
+							<i class="exclamation triangle icon"></i>
+							<span>Enter full name</span>
+						</div>
+
+
+						<div id="Email_">
+							<span>Full Name</span>
+						</div>
+						<div id="optional">
+							<span>*</span>
+						</div>
+
+
+					</div>
+				</div>
+				<div id="Group_5243">
+					<div id="Group_3858_d">
+
+
+
+
+
+						<input class="prompt" type="text" id="location_input" placeholder="Input email address"
+							name="location">
+
+						<div id="Location">
+							<span>Email</span>
+						</div>
+						<div id="Location_Invalid_">
+							<i class="exclamation triangle icon"></i>
+							<span>Enter email</span>
+						</div>
+
+
+
+
+
+
+
+					</div>
+				</div>
+				<div id="Group_5244">
+					<div id="Group_3858_ec">
+						<div class="ui labeled input" id="phonenumber">
+							<div class="ui basic label" id="phonenumber254">254</div>
+							<input id="phonenumber_input" type="number" name="MSISDN" placeholder="723 887 536"
+								isvalid="false" onKeyPress="if(this.value.length==9) return false;">
+
+						</div>
+						<style>
+							input::-webkit-outer-spin-button,
+							input::-webkit-inner-spin-button {
+								-webkit-appearance: none;
+								margin: 0;
+							}
+
+							input[type=number] {
+								-moz-appearance: textfield;
+							}
+
+							/* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
+							@media screen and (device-aspect-ratio: 375/667) {
+
+								select,
+								textarea,
+								input[type="text"],
+								input[type="password"],
+								input[type="datetime"],
+								input[type="datetime-local"],
+								input[type="date"],
+								input[type="month"],
+								input[type="time"],
+								input[type="week"],
+								input[type="number"],
+								input[type="email"],
+								input[type="tel"],
+								input[type="url"] {
+									font-size: 16px;
+								}
+							}
+
+							/* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus,
+							iPhone 8, iPhone X, XS, XS Max  */
+
+							@media screen and (device-aspect-ratio: 9/16) {
+
+								select,
+								textarea,
+								input[type="text"],
+								input[type="password"],
+								input[type="datetime"],
+								input[type="datetime-local"],
+								input[type="date"],
+								input[type="month"],
+								input[type="time"],
+								input[type="week"],
+								input[type="number"],
+								input[type="email"],
+								input[type="tel"],
+								input[type="url"] {
+									font-size: 16px;
+								}
+							}
+
+
+							input[type='text'],
+							input[type='number'],
+							input[type='email'],
+							textarea {
+								font-size: 16px;
+							}
+						</style>
+
+
+						<div id="Phone_Number">
+							<span>Phone Number</span>
+						</div>
+
+
+						<div id="Phone_Number_Invalid">
+							<i class="exclamation triangle icon"></i>
+							<span>Invalid Phone Number</span>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+			</form>
+
+			<div id="Group_5235">
+				<div id="Group_5234">
+					<div id="Group_5246">
+						<svg class="Path_9139" viewBox="0 0 100 0.5">
+							<path id="Path_9139" d="M 0 0 L 99.99999237060547 0">
+							</path>
+						</svg>
+						<svg class="Path_9140" viewBox="0 0 100 0.5">
+							<path id="Path_9140" d="M 0 0 L 100 0">
+							</path>
+						</svg>
+						<div id="Your_summary">
+							<span>Your summary</span>
+						</div>
+					</div>
+					<div id="Group_4810">
+
+						<div id="Group_5219">
+							<div id="ID22628_ey">
+								<span>1st Individual Therapy </span>
+							</div>
+							<div id="ID22628_ez">
+								<span>Quantity 1</span>
+							</div>
+							<div id="Ksh_1490000_x1">
+								<span>Ksh. 4,500.00</span>
+							</div>
+							<svg class="Path_9110" viewBox="0 0 347 0.5">
+								<path id="Path_9110" d="M 0 0 L 347 0">
+								</path>
+							</svg>
+						</div>
+
+
+
+						<div id="group_basket">
+							<div id="Group_5219_basket" class="cart-bask">
+								<div id="ID22628_ey_basket" class="cart-bask-prod">
+									<!-- <span>checkout_</span> -->
+								</div>
+								<div id="ID22628_ez_basket" class="cart-bask-units">
+									<!-- <span>Quantity 1</span> -->
+								</div>
+								<div id="Ksh_1490000_basket" class="cart-bask-ttl">
+									<!-- <span>Ksh.00</span> -->
+								</div>
+								<svg class="Path_9110_basket" viewBox="0 0 347 0.5">
+									<path id="Path_9110_basket" d="M 0 0 L 347 0">
+									</path>
+								</svg>
+							</div>
+						</div>
+						<div id="Group_5218">
+							<div id="ID22628">
+								<span>Delivery</span>
+							</div>
+							<div id="Ksh_14900"> Ksh. 0.00 </div>
+							<div id="Ksh_14900_range"> Ksh. 300-500 </div>
+							<svg class="Path_9108" viewBox="0 0 347 0.5">
+								<path id="Path_9108" d="M 0 0 L 347 0">
+								</path>
+							</svg>
+						</div>
+
+
+						<div id="Group_5240">
+							<div id="ID22628_eu">
+								<span>Service</span>
+							</div>
+							<div id="Ksh_14900_ev"> Ksh. 0.00 </div>
+							<svg class="Path_9108_ew" viewBox="0 0 347 0.5">
+								<path id="Path_9108_ew" d="M 0 0 L 347 0">
+								</path>
+							</svg>
+						</div>
+						<div id="Group_5241">
+							<div id="ID22628_e">
+								<span>Total</span>
+							</div>
+							<div id="Ksh_1504900"> Ksh. 4,500.00 </div>
+							<svg class="Path_9109_e" viewBox="0 0 347 0.5">
+								<path id="Path_9109_e" d="M 0 0 L 347 0">
+								</path>
+							</svg>
+						</div>
+
+						<div id="Group_5222">
+							<div id="Group_521444">
+								<div id="Group_3969">
+									<svg class="Rectangle_2057_cv">
+										<linearGradient id="Rectangle_2057_cv" spreadMethod="pad" x1="0.066" x2="0.79"
+											y1="0" y2="1.3">
+											<stop offset="0" stop-color="#5b97f4" stop-opacity="1"></stop>
+											<stop offset="1" stop-color="#5899ff" stop-opacity="1"></stop>
+										</linearGradient>
+										<rect id="Rectangle_2057_cv" rx="7" ry="7" x="0" y="0" width="347" height="46">
+										</rect>
+									</svg>
+								</div>
+
+
+								<a onClick="checkout_payment()">
+									<div id="PAY_KES_1549000_"> PAY KES. 4,500.00 </div>
+
+								</a>
+							</div>
+
+							<div id="An_Mpesa_prompt_will_be_sent_t">
+								<span>(An Mpesa prompt will be sent to the entered phone number. <br />Fill in your pin
+									to complete the purchase)</span>
+							</div>
+							<div id="Group_5215">
+								<div id="powered_by">
+									<span>powered by</span>
+								</div>
+								<div id="chpter">
+									<span>ColTech Inc</span>
+								</div>
+								</a>
+								
+							</div>
+						</div>
+
+						<div id="Group_4531">
+							<div id="chpter_dn">
+								<span>ColTech Inc</span>
+							</div>
+							<div id="Contact">
+								<span>2021-2023</span>
+							</div>
+							<div id="Privacy_Policy">
+								<span>Privacy Policy</span>
+							</div>
+							<div id="Group_4532">
+								<div id="Layer_2_dr">
+									<div id="radio-button-off">
+										<svg class="Rectangle_2094">
+											<rect id="Rectangle_2094" rx="0" ry="0" x="0" y="0" width="12" height="12">
+											</rect>
+										</svg>
+										<svg class="Path_9068" viewBox="2 2 9.819 9.941">
+											<path id="Path_9068"
+												d="M 6.909521579742432 11.94050121307373 C 4.198067188262939 11.94050121307373 2 9.715242385864258 2 6.970250606536865 C 2 4.225256443023682 4.198067665100098 2 6.909521579742432 2 C 9.620976448059082 2 11.81904315948486 4.225256443023682 11.81904315948486 6.970250606536865 C 11.81904315948486 9.715244293212891 9.620974540710449 11.94050121307373 6.909521579742432 11.94050121307373 Z M 6.909521579742432 2.994050264358521 C 4.740357875823975 2.994050264358521 2.981904268264771 4.774255275726318 2.981904268264771 6.970250606536865 C 2.981904268264771 9.166244506835938 4.740358352661133 10.94645118713379 6.909521579742432 10.94645118713379 C 9.078683853149414 10.94645118713379 10.83713817596436 9.166244506835938 10.83713817596436 6.970250606536865 C 10.83713817596436 4.774255275726318 9.078683853149414 2.994050264358521 6.909521579742432 2.994050264358521 Z">
+											</path>
+										</svg>
+									</div>
+								</div>
+								<div id="c">
+									<span>c</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div id="Card_Information_card">
+			<span>Card Information</span>
+		</div> -->
+
+			<div id="Group_6091_card">
+				<!-- <div id="payment-element">
+				</div> -->
+
+
+
+				<div id="Group_3858_hc_card">
+
+					<div id="Billing_Email_address">
+						<span>Billing Email</span>
+					</div>
+					<div id="Email_address_Invalid_">
+						<i class="exclamation triangle icon"></i>
+						<span>Enter a valid email <address></address></span>
+					</div>
+					<input id="email_address" type="email" name="emailaddress" placeholder="johndoe123@gmail.com">
+				</div>
+
+			</div>
+
+
+			<button id="submit-button">Pay</button>
+
+
+
+			<div id="addproducts">
+				<div id="addproducts_1" onClick="getproductvalues()">
+					<a onClick="selectbox()">
+						<div id="Cancel">
+							<span>Cancel</span>
+						</div>
+					</a>
+				</div>
+				<svg class="Rectangle_2223">
+					<rect id="Rectangle_2223" rx="15" ry="15" x="0" y="0" width="368.954" height="640">
+					</rect>
+				</svg>
+				<div id="All_gh">
+					<span>Your basket (1 items)</span>
+				</div>
+				<div id="BasketCartheader" class="header">
+
+					<div id="Group_5220_yourbasket">
+						<div id="KES_1490000_yourbasket" data-value="4500.0"> KES. 4,500.00 </div>
+						<!-- <div id="Adidas_Ultraboost_yourbasket"> Sub-Total: </div> -->
+					</div>
+
+				</div>
+
+				<div id="BasketCartcontent" class="content"
+					style="overflow-y: scroll; overflow-x: hidden; height:530px;">
+					<div id="Group_5257" class="cart basket">
+						<div class="cart item counter">
+							<div id="reduce_cart_item" class="reduce cart item">
+								<svg class="Rectangle_2057_el_mbphn" class="reduce cart item">
+									<rect id="Rectangle_2057_el_mbphn" rx="7" ry="7" x="0" y="0" width="27" height="27">
+									</rect>
+								</svg>
+								<i id="minus_small_icon" class="minus grey icon"></i>
+							</div>
+							<div id="add_cart_item" class="add cart item">
+								<svg class="Rectangle_2057_mbphn" class="add cart item">
+									<rect id="Rectangle_2057_mbphn" rx="7" ry="7" x="0" y="0" width="27" height="27">
+									</rect>
+								</svg>
+								<i id="plus_small_icon" class="plus grey icon"></i>
+							</div>
+							<div id="product_counter" class="product counter"> 0 </div>
+						</div>
+
+						<div id="Group_4642_fz">
+							<div id="Adidas_Stan_Smith_Original" class="product cart"><span>Couple&#x27;s Therapy</span>
+							</div>
+							<div id="ksh_1280000" class="product price" data-value="4500.0">
+								<span>+ksh 4,500.00</span>
+							</div>
+							<div id="Group_4940_f">
+								<div data-product="1550" data-action="add" class="ui checkbox" id="checkbox"
+									onClick="cartItems()">
+									<input type="checkbox" name="example" value="Couple&#x27;s Therapy">
+									<label></label>
+								</div>
+							</div>
+						</div>
+
+						<svg class="Path_9143" viewBox="0 0 368.954 1">
+							<path id="Path_9143" d="M 0 0 L 368.9541015625 0">
+							</path>
+						</svg>
+						<svg class="Path_9144_gg" viewBox="0 0 368.954 1">
+							<path id="Path_9144_gg" d="M 0 0 L 368.9541015625 0">
+							</path>
+						</svg>
+					</div>
+
+
+					<div id="Group_5257" class="cart basket">
+						<div class="cart item counter">
+							<div id="reduce_cart_item" class="reduce cart item">
+								<svg class="Rectangle_2057_el_mbphn" class="reduce cart item">
+									<rect id="Rectangle_2057_el_mbphn" rx="7" ry="7" x="0" y="0" width="27" height="27">
+									</rect>
+								</svg>
+								<i id="minus_small_icon" class="minus grey icon"></i>
+							</div>
+							<div id="add_cart_item" class="add cart item">
+								<svg class="Rectangle_2057_mbphn" class="add cart item">
+									<rect id="Rectangle_2057_mbphn" rx="7" ry="7" x="0" y="0" width="27" height="27">
+									</rect>
+								</svg>
+								<i id="plus_small_icon" class="plus grey icon"></i>
+							</div>
+							<div id="product_counter" class="product counter"> 0 </div>
+						</div>
+
+						<div id="Group_4642_fz">
+							<div id="Adidas_Stan_Smith_Original" class="product cart"><span>Couple&#x27;s Therapy</span>
+							</div>
+							<div id="ksh_1280000" class="product price" data-value="4500.0">
+								<span>+ksh 4,500.00</span>
+							</div>
+							<div id="Group_4940_f">
+								<div data-product="1544" data-action="add" class="ui checkbox" id="checkbox"
+									onClick="cartItems()">
+									<input type="checkbox" name="example" value="Couple&#x27;s Therapy">
+									<label></label>
+								</div>
+							</div>
+						</div>
+
+						<svg class="Path_9143" viewBox="0 0 368.954 1">
+							<path id="Path_9143" d="M 0 0 L 368.9541015625 0">
+							</path>
+						</svg>
+						<svg class="Path_9144_gg" viewBox="0 0 368.954 1">
+							<path id="Path_9144_gg" d="M 0 0 L 368.9541015625 0">
+							</path>
+						</svg>
+					</div>
+
+
+					<div id="Group_5257" class="cart basket">
+						<div class="cart item counter">
+							<div id="reduce_cart_item" class="reduce cart item">
+								<svg class="Rectangle_2057_el_mbphn" class="reduce cart item">
+									<rect id="Rectangle_2057_el_mbphn" rx="7" ry="7" x="0" y="0" width="27" height="27">
+									</rect>
+								</svg>
+								<i id="minus_small_icon" class="minus grey icon"></i>
+							</div>
+							<div id="add_cart_item" class="add cart item">
+								<svg class="Rectangle_2057_mbphn" class="add cart item">
+									<rect id="Rectangle_2057_mbphn" rx="7" ry="7" x="0" y="0" width="27" height="27">
+									</rect>
+								</svg>
+								<i id="plus_small_icon" class="plus grey icon"></i>
+							</div>
+							<div id="product_counter" class="product counter"> 0 </div>
+						</div>
+
+						<div id="Group_4642_fz">
+							<div id="Adidas_Stan_Smith_Original" class="product cart"><span>Couple&#x27;s Therapy</span>
+							</div>
+							<div id="ksh_1280000" class="product price" data-value="4000.0">
+								<span>+ksh 4,000.00</span>
+							</div>
+							<div id="Group_4940_f">
+								<div data-product="1548" data-action="add" class="ui checkbox" id="checkbox"
+									onClick="cartItems()">
+									<input type="checkbox" name="example" value="Couple&#x27;s Therapy">
+									<label></label>
+								</div>
+							</div>
+						</div>
+
+						<svg class="Path_9143" viewBox="0 0 368.954 1">
+							<path id="Path_9143" d="M 0 0 L 368.9541015625 0">
+							</path>
+						</svg>
+						<svg class="Path_9144_gg" viewBox="0 0 368.954 1">
+							<path id="Path_9144_gg" d="M 0 0 L 368.9541015625 0">
+							</path>
+						</svg>
+					</div>
+
+
+					<div id="Group_5257" class="cart basket">
+						<div class="cart item counter">
+							<div id="reduce_cart_item" class="reduce cart item">
+								<svg class="Rectangle_2057_el_mbphn" class="reduce cart item">
+									<rect id="Rectangle_2057_el_mbphn" rx="7" ry="7" x="0" y="0" width="27" height="27">
+									</rect>
+								</svg>
+								<i id="minus_small_icon" class="minus grey icon"></i>
+							</div>
+							<div id="add_cart_item" class="add cart item">
+								<svg class="Rectangle_2057_mbphn" class="add cart item">
+									<rect id="Rectangle_2057_mbphn" rx="7" ry="7" x="0" y="0" width="27" height="27">
+									</rect>
+								</svg>
+								<i id="plus_small_icon" class="plus grey icon"></i>
+							</div>
+							<div id="product_counter" class="product counter"> 0 </div>
+						</div>
+
+						<div id="Group_4642_fz">
+							<div id="Adidas_Stan_Smith_Original" class="product cart"><span>Individual Therapy</span>
+							</div>
+							<div id="ksh_1280000" class="product price" data-value="3000.0">
+								<span>+ksh 3,000.00</span>
+							</div>
+							<div id="Group_4940_f">
+								<div data-product="1547" data-action="add" class="ui checkbox" id="checkbox"
+									onClick="cartItems()">
+									<input type="checkbox" name="example" value="Individual Therapy">
+									<label></label>
+								</div>
+							</div>
+						</div>
+
+						<svg class="Path_9143" viewBox="0 0 368.954 1">
+							<path id="Path_9143" d="M 0 0 L 368.9541015625 0">
+							</path>
+						</svg>
+						<svg class="Path_9144_gg" viewBox="0 0 368.954 1">
+							<path id="Path_9144_gg" d="M 0 0 L 368.9541015625 0">
+							</path>
+						</svg>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="ui_active_dimmer">
+				<div id="three_dots_loader" class="three-dots-loader">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<style>
+					#three_dots_loader {
+						width: 100%;
+						height: 1600px;
+						left: 190px;
+						top: 0px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						background-color: rgba(26, 26, 26, 0.051) !important;
+						transition-property: background-color;
+						transition-duration: 0s !important;
+						transition-timing-function: linear;
+						transition-delay: 0s;
+					}
+
+					.three-dots-loader span {
+						width: 10px;
+						height: 10px;
+						margin: 0 4px;
+						background-color: rgba(0, 0, 0, 0.94);
+						border-radius: 50%;
+						display: inline-block;
+						animation-name: jumpingDots;
+						animation-duration: 1.2s;
+						animation-iteration-count: infinite;
+						animation-timing-function: linear;
+					}
+
+					.three-dots-loader span:nth-child(2) {
+						animation-delay: 0.4s;
+					}
+
+					.three-dots-loader span:nth-child(3) {
+						animation-delay: 0.8s;
+					}
+
+					@keyframes jumpingDots {
+						33% {
+							transform: translateY(0px);
+						}
+
+						66% {
+							transform: translateY(-6px);
+						}
+					}
+				</style>
+			</div>
+		</div>
+
+		<div id="OopsSomethingWentWrong">
+			<div id="Ooops">
+				<span>Ooops!</span>
+			</div>
+			<!-- Oops Balance -->
+			<div id="Something_went_wrong_balance">
+				<span>Something went wrong. Please make sure you're<br />connected to the internet and have sufficient
+					<br />balance in your Mpesa Wallet. </span>
+			</div>
+			<div id="Something_went_wrong_auth">
+				<span>Merchant is not accepting Card Payments at<br />the moment. Please try again
+					using<br />M-PESA.</span>
+			</div>
+			<!-- Oops Failed -->
+			<div id="Something_went_wrong_failed">
+				<span>Something went wrong.<br />Looks like the transaction was cancelled.<br />Please try again.</span>
+			</div>
+			<!-- Oops Cancelled -->
+			<div id="Something_went_wrong_cancelled">
+				<span>Is there something wrong?<br />Looks like you cancelled the transaction.</span>
+			</div>
+			<div id="Group_5344">
+				<div id="powered_by">
+					<span>powered by</span>
+				</div>
+				<div id="chpter">
+					<span>chpter.</span>
+				</div>
+				<div id="___Learn_more_about_chpter_che">
+					<span>| Learn more about chpter checkout</span>
+				</div>
+			</div>
+			<div id="Group_5214_1" onClick="Back_to_Checkout()">
+				<div id="Group_3969_1">
+					<svg class="Rectangle_2057_1">
+						<rect id="Rectangle_2057_1" rx="7" ry="7" x="0" y="0" width="347" height="46">
+						</rect>
+					</svg>
+				</div>
+				<div id="Back_to_Checkout">
+					<span>Back to Checkout</span>
+				</div>
+			</div>
+			<div id="Group_5343">
+				<svg class="Path_9158" viewBox="233.078 128.875 119.221 94.696">
+					<path id="Path_9158"
+						d="M 310.9438171386719 141.0364685058594 C 307.9971923828125 136.1629638671875 304.50537109375 130.9590148925781 299.0370483398438 129.3679656982422 C 292.7043151855469 127.5248260498047 286.1990051269531 131.1857299804688 280.6807556152344 134.7985992431641 C 264.1787109375 145.6029815673828 248.2867736816406 157.3118286132813 233.0780029296875 169.8717498779297 L 233.0945434570313 170.0611724853516 C 244.9352416992188 169.2443084716797 256.77587890625 168.4278411865234 268.6164855957031 167.6113739013672 C 277.1712646484375 167.0215759277344 286.0203857421875 166.3499450683594 293.5803833007813 162.3029174804688 C 296.4489440917969 160.7675628662109 299.2456970214844 158.7161712646484 302.4966735839844 158.5732574462891 C 306.5352478027344 158.3953399658203 310.0570068359375 161.2163391113281 312.8245849609375 164.163330078125 C 329.1953125 181.5959930419922 333.9327392578125 208.2546081542969 352.299072265625 223.5706024169922 C 340.7177734375 195.0092620849609 326.8895568847656 167.4111785888672 310.9438171386719 141.0364685058594 Z">
+					</path>
+				</svg>
+				<svg class="Path_9159" viewBox="130.766 99.27 218.675 171.581">
+					<path id="Path_9159"
+						d="M 348.571533203125 270.6668395996094 C 346.761474609375 268.381103515625 346.021484375 267.8454895019531 344.2359619140625 265.53857421875 C 329.6957397460938 246.7331085205078 316.029296875 227.2921447753906 303.2361450195313 207.2164154052734 C 294.5465698242188 193.5814056396484 286.2879638671875 179.684814453125 278.460205078125 165.5261077880859 C 274.7335815429688 158.7948913574219 271.1091918945313 152.0110168457031 267.5869750976563 145.1741485595703 C 264.8536376953125 139.8733673095703 262.1813354492188 134.5403289794922 259.5701904296875 129.1757965087891 C 258.8232421875 127.6438903808594 258.0978393554688 126.1046752929688 257.3758544921875 124.5616455078125 C 255.6745147705078 120.9338073730469 254.0046539306641 117.2882690429688 252.2118988037109 113.7096099853516 C 250.1689605712891 109.6306762695313 247.6822967529297 105.3546447753906 243.9311065673828 102.6143493652344 C 242.2236175537109 101.3160629272461 240.1822052001953 100.5303115844727 238.0451507568359 100.3493499755859 C 234.9913177490234 100.1522445678711 232.1734466552734 101.4132614135742 229.5245819091797 102.7903213500977 C 210.1450653076172 112.8958129882813 192.0016021728516 125.5656127929688 175.5913848876953 139.9824676513672 C 159.1388854980469 154.4316253662109 144.4330749511719 170.7557983398438 131.7736511230469 188.6218414306641 C 131.3863677978516 189.1747741699219 130.4703674316406 188.6464385986328 130.8614959716797 188.0901031494141 C 132.4007110595703 185.9134521484375 133.9706573486328 183.7598724365234 135.5709381103516 181.630126953125 C 155.4691619873047 155.1654968261719 179.8677978515625 132.4075012207031 207.6510620117188 114.3962097167969 C 212.3255462646484 111.3673706054688 217.087646484375 108.4799194335938 221.9377136230469 105.7350311279297 C 224.3821563720703 104.3506622314453 226.8372955322266 102.9839782714844 229.3343658447266 101.7018203735352 C 231.7826690673828 100.4446334838867 234.3819427490234 99.31386566162109 237.1787261962891 99.27159118652344 C 246.6959381103516 99.12366485595703 251.6236419677734 109.9019470214844 255.0086517333984 117.1541748046875 C 256.0725708007813 119.4368591308594 257.149169921875 121.7122192382813 258.2384643554688 123.9806976318359 C 262.356201171875 132.5926818847656 266.6322021484375 141.1259155273438 271.0669555664063 149.5807952880859 C 273.8037719726563 154.8008575439453 276.6005249023438 159.9902191162109 279.4572143554688 165.1491851806641 C 288.3474731445313 181.2143707275391 297.7966918945313 196.9545440673828 307.8045043945313 212.3692626953125 C 321.0625610351563 232.7880401611328 334.215087890625 250.8258819580078 349.3184814453125 269.9202880859375 C 349.7342529296875 270.4486083984375 348.9911499023438 271.2024841308594 348.571533203125 270.6668395996094 Z">
+					</path>
+				</svg>
+				<svg class="Path_9160" viewBox="22.51 145.974 86.366 36.709">
+					<path id="Path_9160"
+						d="M 107.9890747070313 163.4195861816406 C 107.4361724853516 162.8032989501953 106.8867416381836 162.1866149902344 106.3299865722656 161.5703277587891 C 101.9413757324219 156.7167816162109 97.23193359375 151.9193725585938 91.20537567138672 149.1367950439453 C 88.33175659179688 147.7678070068359 85.19457244873047 147.0408630371094 82.01203918457031 147.0055236816406 C 78.72231292724609 147.0162811279297 75.50635528564453 147.8792419433594 72.46675109863281 149.0872497558594 C 71.02935791015625 149.6612701416016 69.62387847900391 150.3129272460938 68.23989868164063 151.0068054199219 C 66.65843200683594 151.8029327392578 65.10501098632813 152.6520843505859 63.55889129638672 153.5077514648438 C 60.65644836425781 155.1138153076172 57.79129028320313 156.7905578613281 54.96417236328125 158.5376129150391 C 49.33911895751953 162.0140686035156 43.89005279541016 165.7560424804688 38.61734008789063 169.7631378173828 C 35.88396453857422 171.8413696289063 33.20668792724609 173.9876861572266 30.58627891540527 176.2019500732422 C 28.14875984191895 178.2590942382813 25.76080322265625 180.3711547851563 23.42203140258789 182.53857421875 C 22.92176818847656 183.0000305175781 22.17521667480469 182.2534942626953 22.67509841918945 181.7920227050781 C 23.29177474975586 181.2176208496094 23.91498756408691 180.6470642089844 24.53858375549316 180.0837860107422 C 26.29948616027832 178.4915466308594 28.08920478820801 176.9300842285156 29.90658378601074 175.39892578125 C 33.22090911865234 172.6021423339844 36.62129211425781 169.9133605957031 40.10736083984375 167.3329010009766 C 45.52799987792969 163.3173675537109 51.1353759765625 159.5742492675781 56.92948150634766 156.1035461425781 C 59.82499694824219 154.3707122802734 62.76047515869141 152.7104797363281 65.73551940917969 151.1232452392578 C 66.63384246826172 150.6441345214844 67.54252624511719 150.1757507324219 68.46158599853516 149.7319488525391 C 70.54753875732422 148.6795654296875 72.71495056152344 147.7973937988281 74.94268035888672 147.0934753417969 C 78.09832000732422 146.0726013183594 81.43724060058594 145.744873046875 84.73119354248047 146.1321563720703 C 87.91181182861328 146.5947723388672 90.97599029541016 147.6548614501953 93.76239776611328 149.2563171386719 C 99.67983245849609 152.563720703125 104.2693939208984 157.6781005859375 108.7356262207031 162.6691741943359 C 109.1867141723633 163.1763763427734 108.443229675293 163.9267578125 107.9890747070313 163.4195861816406 Z">
+					</path>
+				</svg>
+				<svg class="Path_9161" viewBox="558.876 291.956 107.101 87.451">
+					<path id="Path_9161"
+						d="M 559.5161743164063 303.6092834472656 L 573.696044921875 298.4230041503906 L 580.7362060546875 295.8479614257813 C 583.0292358398438 295.0092163085938 585.3165283203125 294.0547790527344 587.6868896484375 293.4542846679688 C 589.7466430664063 292.8656005859375 591.9336547851563 292.8937072753906 593.9780883789063 293.5341796875 C 595.8008422851563 294.209228515625 597.4695434570313 295.2435607910156 598.8850708007813 296.5760192871094 C 600.3305053710938 297.9074401855469 601.6759643554688 299.3440246582031 602.9093627929688 300.8739318847656 C 604.4425048828125 302.7163696289063 605.9525146484375 304.5774841308594 607.4693603515625 306.4329528808594 C 613.72998046875 314.0894165039063 619.9498291015625 321.7792358398438 626.12841796875 329.502197265625 C 632.3073120117188 337.2250671386719 638.4443969726563 344.9806518554688 644.5404663085938 352.7692565917969 C 650.6513061523438 360.5766906738281 656.7205200195313 368.4168395996094 662.7470092773438 376.2900085449219 C 663.4854736328125 377.2543640136719 664.2233276367188 378.2191772460938 664.960205078125 379.1847534179688 C 665.367431640625 379.7180786132813 666.28564453125 379.1920166015625 665.8726196289063 378.6513977050781 C 659.8010864257813 370.6991577148438 653.687744140625 362.7798767089844 647.5316772460938 354.8928833007813 C 641.3607177734375 346.9870910644531 635.14697265625 339.1151123046875 628.890625 331.276123046875 C 622.6343383789063 323.4375915527344 616.3357543945313 315.6332092285156 609.9949340820313 307.8626708984375 C 608.4154052734375 305.9265747070313 606.832763671875 303.9927368164063 605.2481689453125 302.0612487792969 C 603.9111328125 300.4317626953125 602.5894165039063 298.7849731445313 601.1227416992188 297.2684326171875 C 598.4312133789063 294.4847412109375 595.0684814453125 292.0245361328125 591.04296875 291.9576416015625 C 588.6761474609375 291.9184875488281 586.3859252929688 292.6696472167969 584.1869506835938 293.4649963378906 C 581.8162841796875 294.3226013183594 579.451416015625 295.1962890625 577.0841674804688 296.0623474121094 L 562.8052368164063 301.2846984863281 L 559.2353515625 302.59033203125 C 558.6021728515625 302.822021484375 558.875732421875 303.8436279296875 559.5161743164063 303.6092834472656 L 559.5161743164063 303.6092834472656 Z">
+					</path>
+				</svg>
+				<svg class="Path_9162" viewBox="136.438 163.951 37.412 12.743">
+					<path id="Path_9162"
+						d="M 159.4934234619141 166.3133239746094 C 152.2876739501953 162.6097717285156 143.0597534179688 163.335205078125 136.4380035400391 167.9620361328125 C 149.0682373046875 170.141357421875 161.5601501464844 173.0568695068359 173.8503570556641 176.6939239501953 C 168.7466735839844 173.7031097412109 164.7546081542969 169.0175018310547 159.4934234619141 166.3133239746094 Z">
+					</path>
+				</svg>
+				<svg class="Path_9163" viewBox="132.643 174.358 1.458 1.128">
+					<path id="Path_9163"
+						d="M 134.0300750732422 174.3580017089844 L 132.6430206298828 175.4857330322266 C 133.1121520996094 175.0911407470703 133.6001434326172 174.7210998535156 134.1011657714844 174.3707122802734 C 134.0773315429688 174.3668518066406 134.0539093017578 174.3622283935547 134.0300750732422 174.3580017089844 Z">
+					</path>
+				</svg>
+				<svg class="Path_9164" viewBox="643.548 311.571 58.889 67.401">
+					<path id="Path_9164"
+						d="M 650.4899291992188 315.739501953125 C 649.0939331054688 314.0404052734375 647.5851440429688 312.261474609375 645.4972534179688 311.571044921875 L 643.548095703125 311.6482543945313 C 658.3860473632813 337.8669738769531 678.4256591796875 360.7771301269531 702.43701171875 378.9720764160156 L 650.4899291992188 315.739501953125 Z">
+					</path>
+				</svg>
+				<svg class="Path_9165" viewBox="342.749 285.941 9.871 15.252">
+					<path id="Path_9165"
+						d="M 344.0558471679688 285.9410400390625 C 344.9576416015625 289.2180786132813 346.98974609375 292.0706176757813 349.7926635742188 293.9935913085938 C 350.8761596679688 294.7313232421875 352.157958984375 295.4390869140625 352.5287475585938 296.6966552734375 C 352.7239379882813 297.4981079101563 352.6036987304688 298.3438110351563 352.193359375 299.0595703125 C 351.7833862304688 299.7658081054688 351.2850341796875 300.4166870117188 350.70947265625 300.9964599609375 L 350.6571655273438 301.1932373046875 C 347.9680786132813 299.5997924804688 345.4098510742188 297.584228515625 343.9244384765625 294.8339233398438 C 342.4393920898438 292.0836181640625 342.23193359375 288.479248046875 344.0558471679688 285.9410400390625">
+					</path>
+				</svg>
+				<svg class="Path_9170" viewBox="8.12 24.659 324.244 26.154">
+					<path id="Path_9170"
+						d="M 331.9795532226563 50.81262969970703 C 331.9403381347656 50.81262969970703 331.901123046875 50.80686569213867 331.863525390625 50.7945671081543 C 230.272216796875 18.66648483276367 140.7332916259766 22.86798095703125 83.50883483886719 32.04978942871094 C 75.72098541259766 33.29890823364258 67.91238403320313 34.74166870117188 60.30012893676758 36.33812713623047 C 58.35671997070313 36.74540328979492 56.34030914306641 37.18187713623047 54.30738067626953 37.63603210449219 C 51.87947082519531 38.17701721191406 49.48382568359375 38.7337646484375 47.18693161010742 39.29050445556641 C 46.19486236572266 39.52526473999023 45.22200393676758 39.76233291625977 44.26874542236328 40.00093078613281 C 42.8248291015625 40.35711288452148 41.35939788818359 40.72865295410156 39.78868865966797 41.1370849609375 C 38.03393173217773 41.58932113647461 36.25036239624023 42.0642204284668 34.48754501342773 42.54757690429688 C 34.48100662231445 42.54987716674805 34.47448348999023 42.55179977416992 34.46795272827148 42.5533447265625 L 34.46795272827148 42.5537223815918 C 32.47689819335938 43.0974006652832 30.49583625793457 43.65682983398438 28.58047103881836 44.21549224853516 C 27.5438346862793 44.51519012451172 26.54254531860352 44.81027603149414 25.58390235900879 45.10190200805664 C 25.47670745849609 45.13148498535156 25.38180541992188 45.15991592407227 25.28536224365234 45.18950653076172 L 25.07942199707031 45.25213241577148 C 24.96031188964844 45.28824996948242 24.84235191345215 45.32398223876953 24.72439765930176 45.35779190063477 L 24.71709632873535 45.36009979248047 L 24.71709632873535 45.3604850769043 L 24.40548896789551 45.45730590820313 C 24.03355598449707 45.56988906860352 23.67085266113281 45.67977523803711 23.31390762329102 45.78927612304688 C 13.88311672210693 48.69670486450195 8.698775291442871 50.76459884643555 8.647674560546875 50.78496551513672 C 8.450567245483398 50.86411666870117 8.226948738098145 50.7684440612793 8.147798538208008 50.57133102416992 C 8.069031715393066 50.37422943115234 8.164704322814941 50.15060806274414 8.361811637878418 50.07184600830078 C 8.413297653198242 50.05147933959961 13.62299728393555 47.97282409667969 23.08798408508301 45.05463790893555 C 23.44607925415039 44.94475555419922 23.8099422454834 44.83485794067383 24.18302345275879 44.72190093994141 L 24.47272872924805 44.63160705566406 C 24.48272132873535 44.62815475463867 24.4923267364502 44.62507629394531 24.5026969909668 44.62199783325195 C 24.61988639831543 44.58857345581055 24.73707580566406 44.55283737182617 24.85580253601074 44.51711273193359 L 25.06212615966797 44.45409774780273 C 25.16510009765625 44.4229736328125 25.26653671264648 44.39223861694336 25.37027740478516 44.36380386352539 C 26.32238388061523 44.07410430908203 27.32674980163574 43.77824401855469 28.36607360839844 43.477783203125 C 30.28258323669434 42.91835021972656 32.26518249511719 42.35891723632813 34.25777816772461 41.81447219848633 C 34.26430511474609 41.81255722045898 34.27045440673828 41.8110237121582 34.27660369873047 41.80909729003906 L 34.27660369873047 41.80871200561523 C 36.04595565795898 41.32343673706055 37.83567810058594 40.84699630737305 39.59618759155273 40.39284896850586 C 41.16958999633789 39.98440551757813 42.63732528686523 39.61210250854492 44.08393096923828 39.2547721862793 C 45.04141616821289 39.01654815673828 46.01581192016602 38.77948760986328 47.00788497924805 38.54318618774414 C 49.30746459960938 37.98568344116211 51.70771408081055 37.42778396606445 54.14023971557617 36.88602828979492 C 56.17624282836914 36.43148803710938 58.19573593139648 35.99385452270508 60.14260101318359 35.5861930847168 C 67.76676177978516 33.98705291748047 75.58726501464844 32.54236602783203 83.38703155517578 31.29133605957031 C 140.6937103271484 22.09607315063477 230.360595703125 17.88804244995117 332.09521484375 50.06224060058594 C 332.2976684570313 50.12602233886719 332.4098205566406 50.34195327758789 332.345703125 50.54405212402344 C 332.2953491210938 50.70389556884766 332.1470642089844 50.81262969970703 331.9795532226563 50.81262969970703 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+
+		<div id="MobileCheckoutLinkReceipt__3">
+			<div id="Group_4531_re">
+				<div id="chpter_re">
+					<span>ColTech Inc.</span>
+				</div>
+				<div id="Text_re">
+					<span>©</span>
+				</div>
+				<div id="Contact_re">
+					<span>Contact</span>
+				</div>
+				<div id="Privacy_Policy_re">
+					<span>Privacy Policy</span>
+				</div>
+			</div>
+			<div id="Group_6564r_e">
+				<svg class="Path_9142_re" viewBox="0 0 366 89">
+					<path id="Path_9142_re"
+						d="M 10 0 L 356 0 C 361.5228576660156 0 366 4.477152347564697 366 10 L 366 89 L 0 89 L 0 10 C 0 4.477152347564697 4.477152347564697 0 10 0 Z">
+					</path>
+				</svg>
+				<div id="Group_5188_re">
+					<div id="Group_5248_re">
+						<div id="Group_5234_re">
+							<div id="Group_4810_receipt">
+
+								<div id="Group_4810_re">
+									<div id="Group_5319_re">
+										<div id="ID22628_ed_re">
+											<span>1st Individual Therapy</span>
+										</div>
+										<div id="ID22628_ee_re">
+											<span>Quantity 1</span>
+										</div>
+										<div id="Ksh_1167000_re">
+											<span>Ksh. 4,500.00</span>
+										</div>
+										<svg class="Path_9110_eg_re" viewBox="0 0 302.172 0.5">
+											<path id="Path_9110_eg_re" d="M 0 0 L 302.1719055175781 0">
+											</path>
+										</svg>
+									</div>
+								</div>
+
+
+								<div id="Product_Details_re">
+
+								</div>
+
+								<div id="Pricing_Details_re">
+									<div id="Group_5218_re">
+										<div id="ID22628_re">
+											<span>Delivery</span>
+										</div>
+										<div id="Ksh_14900_re">
+											<!-- <span>Ksh. </span> -->
+											<span>Ksh. 0.00</span>
+										</div>
+										<svg class="Path_9108_re" viewBox="0 0 302.172 0.5">
+											<path id="Path_9108_re" d="M 0 0 L 302.1719055175781 0">
+											</path>
+										</svg>
+									</div>
+									<div id="Group_5240_re">
+										<div id="ID22628_dz_re">
+											<span>Service</span>
+										</div>
+										<div id="Ksh_14900_d_re">
+											<span>Ksh. 0.00</span>
+										</div>
+										<svg class="Path_9108_d_re" viewBox="0 0 302.172 0.5">
+											<path id="Path_9108_d_re" d="M 0 0 L 302.1719055175781 0">
+											</path>
+										</svg>
+									</div>
+									<div id="Group_5241_re">
+										<div id="ID22628_ep_re">
+											<span>Total</span>
+										</div>
+										<div id="Ksh_1504900_re">
+											<span>Ksh. 4,500.00</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Group_5717_re">
+					<div id="Group_4930_re">
+
+						<div id="All_re">
+							<span>fullname</span>
+						</div>
+						</a>
+						<div id="n_54723767380_re">
+							<span>+</span>
+						</div>
+						<!-- <div id="Thank_you_for_everything_mate">
+						<span>Thank you for everything mate!</span>
+					</div> -->
+					</div>
+					<div id="Group_5716_re">
+						<div id="Group_4933_re">
+							<div id="Code_re">
+								<span>Code:</span>
+							</div>
+							<div id="JSLADD-0001_re">
+								<span></span>
+							</div>
+						</div>
+						<div id="Group_4932_re">
+							<div id="Issued_re">
+								<span>Date:</span>
+							</div>
+							<div id="n_3_Oct_2021_705_am_re">
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Group_5195_re">
+
+					<div id="Drip_City_re">
+						<span>PSYCHOLOGIST RECHAEL MBUGWA</span>
+					</div>
+
+					<div id="All_fq_re">
+						<span>Receipt from PSYCHOLOGIST RECHAEL MBUGWA</span>
+					</div>
+
+				</div>
+				<div id="Group_5715_re">
+					<!-- <svg class="Path_9185" viewBox="0 0 366 103.996">
+					<path id="Path_9185" d="M 10 103.99609375 L 356 103.99609375 C 361.5228576660156 103.99609375 366 98.76456451416016 366 92.31113433837891 L 366 0 L 0 0 L 0 92.31113433837891 C 0 98.76456451416016 4.477152347564697 103.99609375 10 103.99609375 Z">
+					</path>
+				</svg> -->
+
+
+					<div id="All_fu_re">
+						<span>Something wrong? Contact us at </span><span style="color:rgba(69,87,165,1);">
+							mbugwarechael@gmail.com</span>
+					</div>
+
+					<div id="Group_4926_re">
+						<div id="powered_by">
+							<span>powered by</span>
+						</div>
+						<div id="chpter_fx_re">
+							<span>chpter.</span>
+						</div>
+						<div id="Group_4701_re">
+							<div id="n____Learn_more_about_chpter_c_re">
+								<span>| Learn more about chpter checkout</span>
+							</div>
+						</div>
+					</div>
+					<div id="Visit_our_pages_to_more_inform_re">
+						<span>Visit our pages for more information on new products.</span>
+					</div>
+					<div id="Group_5476_re">
+
+
+
+
+
+
+					</div>
+				</div>
+				<div id="Group_5718_re">
+					<div id="Thank_you_for_your_payment_Her_re">
+						<span>Thank you for your payment! Here is your summary.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="CheckoutPayPageDesktopdp">
+		<div id="CheckoutPPDesktopdp">
+			<div id="Group_6080dp">
+
+				<div id="Denri_Africadp">
+					<span>PSYCHOLOGIST RECHAEL MBUGWA</span>
+				</div>
+
+			</div>
+			<div id="Group_6081dp">
+				<div id="Group_3972dp">
+					<svg class="Rectangle_1922dp">
+						<rect id="Rectangle_1922dp" rx="15" ry="15" x="0" y="0" width="575" height="1085">
+						</rect>
+					</svg>
+				</div>
+				<div id="Group_6064dp">
+					<div id="Group_6142dp">
+						<form id="checkout_payment_form" action="https://chpter.co/checkout/checkout-payment/"
+							method="post">
+							<input type="hidden" name="csrfmiddlewaretoken"
+								value="xffoztrdiry3PDHrqvIRFSHAEnJxGebRhMSGQn8ZtVufU5xNXEAvoVWYo3nqBrz1">
+
+							<div id="Group_6092">
+								<div id="Group_3858dp">
+									<div id="Payment_Methoddp">
+										<span>Select Payment Method</span>
+									</div>
+
+
+									<div id="Group_6097_carddp">
+										<div class="ui cards">
+											<div class="card">
+												<div class="content">
+													<!-- <svg class="Rectangle_2002_ht_card">
+												<rect id="Rectangle_2002_ht_card" rx="7" ry="7" x="0" y="0" width="100" height="50">
+												</rect>
+											</svg> -->
+													<img id="Image_14dp"
+														src="../../../../chptermerchant-bucket.s3.amazonaws.com/static/images/mpesaa41d.png?AWSAccessKeyId=AKIA5ENPD2MWPRJEYPPP&amp;Signature=3pDxWGI90IQH8RTNVPhSGmmYNMs%3D&amp;Expires=1684238517">
+
+													<div id="Mpesadp">
+														<span>Mpesa</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<style>
+										.ui.card>.content,
+										.ui.cards>.card>.content {
+											/* filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.05)); */
+											width: 100px;
+											height: 50px;
+											background: rgba(255, 255, 255, 0.94);
+											/* border: solid 1px rgba(6, 6, 6, 0.556); */
+											border-radius: 12px;
+										}
+									</style>
+
+									<div id="Group_6098_carddp" class="Card_Checkout">
+										<div class="ui cards">
+											<div class="card">
+												<div class="content">
+													<div id="Carddp">
+														<span>Card</span>
+													</div>
+													<div id="credit-carddp">
+														<i class="credit card outline icon"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="Group_6093dp">
+								<div id="Group_3858_fvdp">
+									<svg class="Rectangle_2002_fwdp">
+										<rect id="Rectangle_2002_fwdp" rx="7.5" ry="7.5" x="0" y="0" width="425"
+											height="45">
+										</rect>
+									</svg>
+
+
+
+
+
+
+
+
+									<input class="prompt" type="text" id="location_inputdp"
+										placeholder="Input email address" name="location">
+
+									<div id="For_deliverydp">
+										<span></span>
+									</div>
+									<div id="Locationdp">
+										<span>Email </span>
+									</div>
+
+
+
+
+
+									<div id="Billing_Email_addressdp">
+										<span>Email Address</span>
+									</div>
+
+
+
+
+								</div>
+							</div>
+
+							<div id="Group_6093_emaildp">
+								<div id="EmailAddressdp">
+									<span>Email Address</span>
+								</div>
+								<div id="Location_Invalid_dp">
+									<i class="exclamation triangle icon"></i>
+									<span>Enter Location</span>
+								</div>
+								<input id="emaildp" type="email" name="emailaddress" placeholder="chela@gmail.com">
+							</div>
+							<div id="Group_6094dp">
+								<div id="Group_3858_fdp">
+									<div id="Phone_Numberdp">
+										<span>Phone Number</span>
+									</div>
+									<div id="Phone_Number_Invalid_dp">
+										<i class="exclamation triangle icon"></i>
+										<span>Enter valid number</span>
+									</div>
+
+									<svg class="Rectangle_2351dp">
+										<rect id="Rectangle_2351dp" rx="7.5" ry="7.5" x="0" y="0" width="59"
+											height="45">
+										</rect>
+									</svg>
+									<div class="ui labeled input" id="phonenumberdp">
+										<div class="ui basic label" id="phonenumber254dp">254</div>
+										<input id="phonenumber_inputdp" type="number" name="MSISDN"
+											placeholder="723 887 536" isvalid="false"
+											onKeyPress="if(this.value.length==9) return false;" required>
+									</div>
+
+									<style>
+										input::-webkit-outer-spin-button,
+										input::-webkit-inner-spin-button {
+											-webkit-appearance: none;
+											margin: 0;
+										}
+
+										input[type=number] {
+											-moz-appearance: textfield;
+										}
+
+										/* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
+										@media screen and (device-aspect-ratio: 375/667) {
+
+											select,
+											textarea,
+											input[type="text"],
+											input[type="password"],
+											input[type="datetime"],
+											input[type="datetime-local"],
+											input[type="date"],
+											input[type="month"],
+											input[type="time"],
+											input[type="week"],
+											input[type="number"],
+											input[type="email"],
+											input[type="tel"],
+											input[type="url"] {
+												font-size: 16px;
+											}
+										}
+
+										/* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus,
+										iPhone 8, iPhone X, XS, XS Max  */
+
+										@media screen and (device-aspect-ratio: 9/16) {
+
+											select,
+											textarea,
+											input[type="text"],
+											input[type="password"],
+											input[type="datetime"],
+											input[type="datetime-local"],
+											input[type="date"],
+											input[type="month"],
+											input[type="time"],
+											input[type="week"],
+											input[type="number"],
+											input[type="email"],
+											input[type="tel"],
+											input[type="url"] {
+												font-size: 16px;
+											}
+										}
+
+
+										input[type='text'],
+										input[type='number'],
+										input[type='email'],
+										textarea {
+											font-size: 16px;
+										}
+									</style>
+								</div>
+							</div>
+							<div id="Group_6140dp">
+								<div id="Group_3858_gadp">
+									<svg class="Rectangle_2002_gadp">
+										<rect id="Rectangle_2002_gadp" rx="7.5" ry="7.5" x="0" y="0" width="425"
+											height="45">
+										</rect>
+									</svg>
+									<div id="Email_Addressdp">
+										<span>Email Address</span>
+									</div>
+									<div>
+										<input id="johnmilo63gmailcomdp" type="text" name="fullname"
+											placeholder="Input Email">
+									</div>
+								</div>
+							</div>
+							<div id="Group_6095dp">
+								<div id="Group_3858_gddp">
+									<svg class="Rectangle_2002_gedp">
+										<rect id="Rectangle_2002_gedp" rx="7.5" ry="7.5" x="0" y="0" width="424.999"
+											height="45">
+										</rect>
+									</svg>
+									<div>
+										<input id="Input_email_addressdp" type="text" name="fullname"
+											placeholder="Input full name">
+									</div>
+
+
+									<div id="Phone_Number_Invalid__dp">
+										<i class="exclamation triangle icon"></i>
+										<span>Enter full name</span>
+									</div>
+
+
+									<div id="Full_Namedp">
+										<span>Full Name</span>
+									</div>
+									<div id="optionaldp">
+										<span>*</span>
+									</div>
+
+
+								</div>
+							</div>
+						</form>
+
+
+						<div id="Group_6091_carddp">
+							<div id="Group_3858_hc_carddp">
+
+								<div id="Billing_Email_address_dp">
+									<span>Billing Email</span>
+								</div>
+								<div id="Email_address_Invalid_dp">
+									<i class="exclamation triangle icon"></i>
+									<span>Enter a valid email <address></address></span>
+								</div>
+								<input id="email_addressdp" type="email" name="emailaddress"
+									placeholder="chela@gmail.com">
+
+							</div>
+
+						</div>
+
+
+						<button id="submit-buttondp">Pay</button>
+
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div id="Group_5214dp">
+				<div id="Group_3969dp">
+					<svg class="Rectangle_2057_gydp">
+						<linearGradient id="Rectangle_2057_gydp" spreadMethod="pad" x1="0.066" x2="0.79" y1="0"
+							y2="1.3">
+							<stop offset="0" stop-color="#5b97f4" stop-opacity="1"></stop>
+							<stop offset="1" stop-color="#5899ff" stop-opacity="1"></stop>
+						</linearGradient>
+						<rect id="Rectangle_2057_gydp" rx="7" ry="7" x="0" y="0" width="425" height="50">
+						</rect>
+					</svg>
+				</div>
+
+
+				<a onclick="checkout_payment_desktop()">
+					<div id="PAY_KES_1490000dp">
+						<span>PAY KES. 4,500.00</span>
+					</div>
+
+				</a>
+			</div>
+
+			<div id="Group_6155dp">
+
+				<svg class="Rectangle_2358dp">
+					<rect id="Rectangle_2358dp" rx="15" ry="15" x="0" y="0" width="588.959" height="652.576">
+					</rect>
+				</svg>
+				<img id="SATISdp" src="../../../../chptermerchant-bucket.s3.amazonaws.com/media/20201213_184830.jpg">
+
+				<div id="Group_6153dp">
+
+					<div id="Satis_Travel_Bags__2_moredp" data-link="link-pTW9oCIaOKmVoFGfWU">
+						<span>1st Individual Therapy</span>
+					</div>
+
+					<div id="prodcountdp">
+						<span></span>
+					</div>
+					<div id="Total_Product_Pricedp">
+						<span>Total Checkout Price</span>
+					</div>
+					<div id="KES_800000dp">
+						<span>Ksh. 4,500.00</span>
+					</div>
+				</div>
+				<div id="Group_6156dp">
+
+
+
+					<div id="Group_6154dp">
+						<svg class="Path_9140dp" viewBox="0 0 177.808 0.5">
+							<path id="Path_9140dp" d="M 0 0 L 177.8078155517578 0">
+							</path>
+						</svg>
+						<svg class="Path_9259dp" viewBox="0 0 177.808 0.5">
+							<path id="Path_9259dp" d="M 0 0 L 177.8078155517578 0">
+							</path>
+						</svg>
+
+						<div id="Your_summarydp">
+							<span>Your summary</span>
+						</div>
+					</div>
+
+					<div id="product_details">
+
+						<div id="Group_6147dp">
+							<div id="n_2628_hrdp">
+								<span>1st Individual Therapy</span>
+							</div>
+							<div id="n_2628_hsdp">
+								<span>Quantity : 1</span>
+							</div>
+							<div id="Ksh_350000_htdp">
+								<span>Ksh 4,500.00</span>
+							</div>
+							<svg class="Path_9110_hudp" viewBox="0 0 472.443 0.5">
+								<path id="Path_9110_hudp" d="M 0 0 L 472.4432373046875 0">
+								</path>
+							</svg>
+						</div>
+
+					</div>
+
+
+
+					<div id="pricing_details">
+
+
+
+
+
+						<div id="Group_6150dp">
+							<div id="n_2628dp">
+								<span>Delivery</span>
+							</div>
+							<div id="Ksh_14900dp">
+								<span>Ksh. 0.00</span>
+							</div>
+							<div id="Ksh_14900dp_range">
+								<span>Ksh. 300-500</span>
+							</div>
+							<svg class="Path_9108dp" viewBox="0 0 474.109 0.5">
+								<path id="Path_9108dp" d="M 0 0 L 474.109375 0">
+								</path>
+							</svg>
+						</div>
+
+
+						<div id="Group_6151dp">
+							<div id="n_2628_hddp">
+								<span>Service</span>
+							</div>
+							<div id="Ksh_14900_hedp">
+								<span>Ksh. 0.00</span>
+							</div>
+							<svg class="Path_9108_hfdp" viewBox="0 0 475.391 0.5">
+								<path id="Path_9108_hfdp" d="M 0 0 L 475.3914184570312 0">
+								</path>
+							</svg>
+						</div>
+						<div id="Group_6152dp">
+							<div id="n_2628_hwdp">
+								<span>Total</span>
+							</div>
+							<div id="Ksh_829800dp">
+								<span>Ksh. 4,500.00</span>
+							</div>
+							<svg class="Path_9109dp" viewBox="0 0 475.005 0.5">
+								<path id="Path_9109dp" d="M 0 0 L 475.0051574707031 0">
+								</path>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="Group_6146dp">
+				<div id="powered_bydp_">
+					<span>powered by</span>
+				</div>
+				<div id="chpterdp_">
+					<span>ColTech Inc.</span>
+				</div>
+				<div id="n____Learn_more_dp_">
+					<span>| Learn more </span>
+				</div>
+			</div>
+			<div id="Confirm_and_Paydp_">
+				<span>Confirm and Pay</span>
+			</div>
+
+			<div id="ui_active_dimmerdp">
+				<div id="three_dots_loader" class="three-dots-loader">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<style>
+					#three_dots_loader {
+						width: 100%;
+						height: 1300px;
+						left: 190px;
+						top: 0px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						background-color: rgb(253 253 253) !important;
+						transition-property: background-color;
+						transition-duration: 0s !important;
+						transition-timing-function: linear;
+						transition-delay: 0s;
+					}
+
+					.three-dots-loader span {
+						width: 10px;
+						height: 10px;
+						margin: 0 4px;
+						background-color: rgba(0, 0, 0, 0.94);
+						border-radius: 50%;
+						display: inline-block;
+						animation-name: jumpingDots;
+						animation-duration: 1.2s;
+						animation-iteration-count: infinite;
+						animation-timing-function: linear;
+					}
+
+					.three-dots-loader span:nth-child(2) {
+						animation-delay: 0.4s;
+					}
+
+					.three-dots-loader span:nth-child(3) {
+						animation-delay: 0.8s;
+					}
+
+					@keyframes jumpingDots {
+						33% {
+							transform: translateY(0px);
+						}
+
+						66% {
+							transform: translateY(-6px);
+						}
+					}
+				</style>
+			</div>
+
+		</div>
+
+		<div id="OopsSomethingWentWrongdp">
+			<div id="Ooopsdp">
+				<span>Ooops!</span>
+			</div>
+			<!-- Oops Balance -->
+			<div id="Something_went_wrong_balancedp">
+				<span>Something went wrong. Please make sure you're<br />connected to the internet and have sufficient
+					<br />balance in your Mpesa Wallet. </span>
+			</div>
+			<div id="Something_went_wrong_authdp">
+				<span>Merchant is not accepting Card Payments at<br />the moment. Please try again
+					using<br />M-PESA.</span>
+			</div>
+			<!-- Oops Failed -->
+			<div id="Something_went_wrong_faileddp">
+				<span>Something went wrong.<br/>Looks like the transaction was cancelled.<br />Please try again.</span>
+			</div>
+			<!-- Oops Cancelled -->
+			<div id="Something_went_wrong_cancelleddp">
+				<span>Is there something wrong?<br />Looks like you cancelled the transaction.</span>
+			</div>
+			<div id="Group_5344dp">
+				<div id="powered_bydp">
+					<span>powered by:</span>
+				</div>
+				<div id="chpterdp">
+					<span>ColTech Inc.</span>
+				</div>
+				<div id="___Learn_more_about_chpter_chedp">
+					<span>| Learn more about ColTech checkout.</span>
+				</div>
+			</div>
+			<div id="Group_5214_1dp" onClick="Back_to_Checkoutdp()">
+				<div id="Group_3969_1dp">
+					<svg class="Rectangle_2057_1dp">
+						<rect id="Rectangle_2057_1dp" rx="7" ry="7" x="0" y="0" width="347" height="46">
+						</rect>
+					</svg>
+				</div>
+				<div id="Back_to_Checkoutdp">
+					<span>Back to Checkout.</span>
+				</div>
+			</div>
+			<div id="Group_5343dp">
+				<svg class="Path_9158dp" viewBox="233.078 128.875 119.221 94.696">
+					<path id="Path_9158dp"
+						d="M 310.9438171386719 141.0364685058594 C 307.9971923828125 136.1629638671875 304.50537109375 130.9590148925781 299.0370483398438 129.3679656982422 C 292.7043151855469 127.5248260498047 286.1990051269531 131.1857299804688 280.6807556152344 134.7985992431641 C 264.1787109375 145.6029815673828 248.2867736816406 157.3118286132813 233.0780029296875 169.8717498779297 L 233.0945434570313 170.0611724853516 C 244.9352416992188 169.2443084716797 256.77587890625 168.4278411865234 268.6164855957031 167.6113739013672 C 277.1712646484375 167.0215759277344 286.0203857421875 166.3499450683594 293.5803833007813 162.3029174804688 C 296.4489440917969 160.7675628662109 299.2456970214844 158.7161712646484 302.4966735839844 158.5732574462891 C 306.5352478027344 158.3953399658203 310.0570068359375 161.2163391113281 312.8245849609375 164.163330078125 C 329.1953125 181.5959930419922 333.9327392578125 208.2546081542969 352.299072265625 223.5706024169922 C 340.7177734375 195.0092620849609 326.8895568847656 167.4111785888672 310.9438171386719 141.0364685058594 Z">
+					</path>
+				</svg>
+				<svg class="Path_9159dp" viewBox="130.766 99.27 218.675 171.581">
+					<path id="Path_9159dp"
+						d="M 348.571533203125 270.6668395996094 C 346.761474609375 268.381103515625 346.021484375 267.8454895019531 344.2359619140625 265.53857421875 C 329.6957397460938 246.7331085205078 316.029296875 227.2921447753906 303.2361450195313 207.2164154052734 C 294.5465698242188 193.5814056396484 286.2879638671875 179.684814453125 278.460205078125 165.5261077880859 C 274.7335815429688 158.7948913574219 271.1091918945313 152.0110168457031 267.5869750976563 145.1741485595703 C 264.8536376953125 139.8733673095703 262.1813354492188 134.5403289794922 259.5701904296875 129.1757965087891 C 258.8232421875 127.6438903808594 258.0978393554688 126.1046752929688 257.3758544921875 124.5616455078125 C 255.6745147705078 120.9338073730469 254.0046539306641 117.2882690429688 252.2118988037109 113.7096099853516 C 250.1689605712891 109.6306762695313 247.6822967529297 105.3546447753906 243.9311065673828 102.6143493652344 C 242.2236175537109 101.3160629272461 240.1822052001953 100.5303115844727 238.0451507568359 100.3493499755859 C 234.9913177490234 100.1522445678711 232.1734466552734 101.4132614135742 229.5245819091797 102.7903213500977 C 210.1450653076172 112.8958129882813 192.0016021728516 125.5656127929688 175.5913848876953 139.9824676513672 C 159.1388854980469 154.4316253662109 144.4330749511719 170.7557983398438 131.7736511230469 188.6218414306641 C 131.3863677978516 189.1747741699219 130.4703674316406 188.6464385986328 130.8614959716797 188.0901031494141 C 132.4007110595703 185.9134521484375 133.9706573486328 183.7598724365234 135.5709381103516 181.630126953125 C 155.4691619873047 155.1654968261719 179.8677978515625 132.4075012207031 207.6510620117188 114.3962097167969 C 212.3255462646484 111.3673706054688 217.087646484375 108.4799194335938 221.9377136230469 105.7350311279297 C 224.3821563720703 104.3506622314453 226.8372955322266 102.9839782714844 229.3343658447266 101.7018203735352 C 231.7826690673828 100.4446334838867 234.3819427490234 99.31386566162109 237.1787261962891 99.27159118652344 C 246.6959381103516 99.12366485595703 251.6236419677734 109.9019470214844 255.0086517333984 117.1541748046875 C 256.0725708007813 119.4368591308594 257.149169921875 121.7122192382813 258.2384643554688 123.9806976318359 C 262.356201171875 132.5926818847656 266.6322021484375 141.1259155273438 271.0669555664063 149.5807952880859 C 273.8037719726563 154.8008575439453 276.6005249023438 159.9902191162109 279.4572143554688 165.1491851806641 C 288.3474731445313 181.2143707275391 297.7966918945313 196.9545440673828 307.8045043945313 212.3692626953125 C 321.0625610351563 232.7880401611328 334.215087890625 250.8258819580078 349.3184814453125 269.9202880859375 C 349.7342529296875 270.4486083984375 348.9911499023438 271.2024841308594 348.571533203125 270.6668395996094 Z">
+					</path>
+				</svg>
+				<svg class="Path_9160dp" viewBox="22.51 145.974 86.366 36.709">
+					<path id="Path_9160dp"
+						d="M 107.9890747070313 163.4195861816406 C 107.4361724853516 162.8032989501953 106.8867416381836 162.1866149902344 106.3299865722656 161.5703277587891 C 101.9413757324219 156.7167816162109 97.23193359375 151.9193725585938 91.20537567138672 149.1367950439453 C 88.33175659179688 147.7678070068359 85.19457244873047 147.0408630371094 82.01203918457031 147.0055236816406 C 78.72231292724609 147.0162811279297 75.50635528564453 147.8792419433594 72.46675109863281 149.0872497558594 C 71.02935791015625 149.6612701416016 69.62387847900391 150.3129272460938 68.23989868164063 151.0068054199219 C 66.65843200683594 151.8029327392578 65.10501098632813 152.6520843505859 63.55889129638672 153.5077514648438 C 60.65644836425781 155.1138153076172 57.79129028320313 156.7905578613281 54.96417236328125 158.5376129150391 C 49.33911895751953 162.0140686035156 43.89005279541016 165.7560424804688 38.61734008789063 169.7631378173828 C 35.88396453857422 171.8413696289063 33.20668792724609 173.9876861572266 30.58627891540527 176.2019500732422 C 28.14875984191895 178.2590942382813 25.76080322265625 180.3711547851563 23.42203140258789 182.53857421875 C 22.92176818847656 183.0000305175781 22.17521667480469 182.2534942626953 22.67509841918945 181.7920227050781 C 23.29177474975586 181.2176208496094 23.91498756408691 180.6470642089844 24.53858375549316 180.0837860107422 C 26.29948616027832 178.4915466308594 28.08920478820801 176.9300842285156 29.90658378601074 175.39892578125 C 33.22090911865234 172.6021423339844 36.62129211425781 169.9133605957031 40.10736083984375 167.3329010009766 C 45.52799987792969 163.3173675537109 51.1353759765625 159.5742492675781 56.92948150634766 156.1035461425781 C 59.82499694824219 154.3707122802734 62.76047515869141 152.7104797363281 65.73551940917969 151.1232452392578 C 66.63384246826172 150.6441345214844 67.54252624511719 150.1757507324219 68.46158599853516 149.7319488525391 C 70.54753875732422 148.6795654296875 72.71495056152344 147.7973937988281 74.94268035888672 147.0934753417969 C 78.09832000732422 146.0726013183594 81.43724060058594 145.744873046875 84.73119354248047 146.1321563720703 C 87.91181182861328 146.5947723388672 90.97599029541016 147.6548614501953 93.76239776611328 149.2563171386719 C 99.67983245849609 152.563720703125 104.2693939208984 157.6781005859375 108.7356262207031 162.6691741943359 C 109.1867141723633 163.1763763427734 108.443229675293 163.9267578125 107.9890747070313 163.4195861816406 Z">
+					</path>
+				</svg>
+				<svg class="Path_9161dp" viewBox="558.876 291.956 107.101 87.451">
+					<path id="Path_9161dp"
+						d="M 559.5161743164063 303.6092834472656 L 573.696044921875 298.4230041503906 L 580.7362060546875 295.8479614257813 C 583.0292358398438 295.0092163085938 585.3165283203125 294.0547790527344 587.6868896484375 293.4542846679688 C 589.7466430664063 292.8656005859375 591.9336547851563 292.8937072753906 593.9780883789063 293.5341796875 C 595.8008422851563 294.209228515625 597.4695434570313 295.2435607910156 598.8850708007813 296.5760192871094 C 600.3305053710938 297.9074401855469 601.6759643554688 299.3440246582031 602.9093627929688 300.8739318847656 C 604.4425048828125 302.7163696289063 605.9525146484375 304.5774841308594 607.4693603515625 306.4329528808594 C 613.72998046875 314.0894165039063 619.9498291015625 321.7792358398438 626.12841796875 329.502197265625 C 632.3073120117188 337.2250671386719 638.4443969726563 344.9806518554688 644.5404663085938 352.7692565917969 C 650.6513061523438 360.5766906738281 656.7205200195313 368.4168395996094 662.7470092773438 376.2900085449219 C 663.4854736328125 377.2543640136719 664.2233276367188 378.2191772460938 664.960205078125 379.1847534179688 C 665.367431640625 379.7180786132813 666.28564453125 379.1920166015625 665.8726196289063 378.6513977050781 C 659.8010864257813 370.6991577148438 653.687744140625 362.7798767089844 647.5316772460938 354.8928833007813 C 641.3607177734375 346.9870910644531 635.14697265625 339.1151123046875 628.890625 331.276123046875 C 622.6343383789063 323.4375915527344 616.3357543945313 315.6332092285156 609.9949340820313 307.8626708984375 C 608.4154052734375 305.9265747070313 606.832763671875 303.9927368164063 605.2481689453125 302.0612487792969 C 603.9111328125 300.4317626953125 602.5894165039063 298.7849731445313 601.1227416992188 297.2684326171875 C 598.4312133789063 294.4847412109375 595.0684814453125 292.0245361328125 591.04296875 291.9576416015625 C 588.6761474609375 291.9184875488281 586.3859252929688 292.6696472167969 584.1869506835938 293.4649963378906 C 581.8162841796875 294.3226013183594 579.451416015625 295.1962890625 577.0841674804688 296.0623474121094 L 562.8052368164063 301.2846984863281 L 559.2353515625 302.59033203125 C 558.6021728515625 302.822021484375 558.875732421875 303.8436279296875 559.5161743164063 303.6092834472656 L 559.5161743164063 303.6092834472656 Z">
+					</path>
+				</svg>
+				<svg class="Path_9162dp" viewBox="136.438 163.951 37.412 12.743">
+					<path id="Path_9162dp"
+						d="M 159.4934234619141 166.3133239746094 C 152.2876739501953 162.6097717285156 143.0597534179688 163.335205078125 136.4380035400391 167.9620361328125 C 149.0682373046875 170.141357421875 161.5601501464844 173.0568695068359 173.8503570556641 176.6939239501953 C 168.7466735839844 173.7031097412109 164.7546081542969 169.0175018310547 159.4934234619141 166.3133239746094 Z">
+					</path>
+				</svg>
+				<svg class="Path_9163dp" viewBox="132.643 174.358 1.458 1.128">
+					<path id="Path_9163dp"
+						d="M 134.0300750732422 174.3580017089844 L 132.6430206298828 175.4857330322266 C 133.1121520996094 175.0911407470703 133.6001434326172 174.7210998535156 134.1011657714844 174.3707122802734 C 134.0773315429688 174.3668518066406 134.0539093017578 174.3622283935547 134.0300750732422 174.3580017089844 Z">
+					</path>
+				</svg>
+				<svg class="Path_9164dp" viewBox="643.548 311.571 58.889 67.401">
+					<path id="Path_9164dp"
+						d="M 650.4899291992188 315.739501953125 C 649.0939331054688 314.0404052734375 647.5851440429688 312.261474609375 645.4972534179688 311.571044921875 L 643.548095703125 311.6482543945313 C 658.3860473632813 337.8669738769531 678.4256591796875 360.7771301269531 702.43701171875 378.9720764160156 L 650.4899291992188 315.739501953125 Z">
+					</path>
+				</svg>
+				<svg class="Path_9165dp" viewBox="342.749 285.941 9.871 15.252">
+					<path id="Path_9165dp"
+						d="M 344.0558471679688 285.9410400390625 C 344.9576416015625 289.2180786132813 346.98974609375 292.0706176757813 349.7926635742188 293.9935913085938 C 350.8761596679688 294.7313232421875 352.157958984375 295.4390869140625 352.5287475585938 296.6966552734375 C 352.7239379882813 297.4981079101563 352.6036987304688 298.3438110351563 352.193359375 299.0595703125 C 351.7833862304688 299.7658081054688 351.2850341796875 300.4166870117188 350.70947265625 300.9964599609375 L 350.6571655273438 301.1932373046875 C 347.9680786132813 299.5997924804688 345.4098510742188 297.584228515625 343.9244384765625 294.8339233398438 C 342.4393920898438 292.0836181640625 342.23193359375 288.479248046875 344.0558471679688 285.9410400390625">
+					</path>
+				</svg>
+				<svg class="Path_9170dp" viewBox="8.12 24.659 324.244 26.154">
+					<path id="Path_9170dp"
+						d="M 331.9795532226563 50.81262969970703 C 331.9403381347656 50.81262969970703 331.901123046875 50.80686569213867 331.863525390625 50.7945671081543 C 230.272216796875 18.66648483276367 140.7332916259766 22.86798095703125 83.50883483886719 32.04978942871094 C 75.72098541259766 33.29890823364258 67.91238403320313 34.74166870117188 60.30012893676758 36.33812713623047 C 58.35671997070313 36.74540328979492 56.34030914306641 37.18187713623047 54.30738067626953 37.63603210449219 C 51.87947082519531 38.17701721191406 49.48382568359375 38.7337646484375 47.18693161010742 39.29050445556641 C 46.19486236572266 39.52526473999023 45.22200393676758 39.76233291625977 44.26874542236328 40.00093078613281 C 42.8248291015625 40.35711288452148 41.35939788818359 40.72865295410156 39.78868865966797 41.1370849609375 C 38.03393173217773 41.58932113647461 36.25036239624023 42.0642204284668 34.48754501342773 42.54757690429688 C 34.48100662231445 42.54987716674805 34.47448348999023 42.55179977416992 34.46795272827148 42.5533447265625 L 34.46795272827148 42.5537223815918 C 32.47689819335938 43.0974006652832 30.49583625793457 43.65682983398438 28.58047103881836 44.21549224853516 C 27.5438346862793 44.51519012451172 26.54254531860352 44.81027603149414 25.58390235900879 45.10190200805664 C 25.47670745849609 45.13148498535156 25.38180541992188 45.15991592407227 25.28536224365234 45.18950653076172 L 25.07942199707031 45.25213241577148 C 24.96031188964844 45.28824996948242 24.84235191345215 45.32398223876953 24.72439765930176 45.35779190063477 L 24.71709632873535 45.36009979248047 L 24.71709632873535 45.3604850769043 L 24.40548896789551 45.45730590820313 C 24.03355598449707 45.56988906860352 23.67085266113281 45.67977523803711 23.31390762329102 45.78927612304688 C 13.88311672210693 48.69670486450195 8.698775291442871 50.76459884643555 8.647674560546875 50.78496551513672 C 8.450567245483398 50.86411666870117 8.226948738098145 50.7684440612793 8.147798538208008 50.57133102416992 C 8.069031715393066 50.37422943115234 8.164704322814941 50.15060806274414 8.361811637878418 50.07184600830078 C 8.413297653198242 50.05147933959961 13.62299728393555 47.97282409667969 23.08798408508301 45.05463790893555 C 23.44607925415039 44.94475555419922 23.8099422454834 44.83485794067383 24.18302345275879 44.72190093994141 L 24.47272872924805 44.63160705566406 C 24.48272132873535 44.62815475463867 24.4923267364502 44.62507629394531 24.5026969909668 44.62199783325195 C 24.61988639831543 44.58857345581055 24.73707580566406 44.55283737182617 24.85580253601074 44.51711273193359 L 25.06212615966797 44.45409774780273 C 25.16510009765625 44.4229736328125 25.26653671264648 44.39223861694336 25.37027740478516 44.36380386352539 C 26.32238388061523 44.07410430908203 27.32674980163574 43.77824401855469 28.36607360839844 43.477783203125 C 30.28258323669434 42.91835021972656 32.26518249511719 42.35891723632813 34.25777816772461 41.81447219848633 C 34.26430511474609 41.81255722045898 34.27045440673828 41.8110237121582 34.27660369873047 41.80909729003906 L 34.27660369873047 41.80871200561523 C 36.04595565795898 41.32343673706055 37.83567810058594 40.84699630737305 39.59618759155273 40.39284896850586 C 41.16958999633789 39.98440551757813 42.63732528686523 39.61210250854492 44.08393096923828 39.2547721862793 C 45.04141616821289 39.01654815673828 46.01581192016602 38.77948760986328 47.00788497924805 38.54318618774414 C 49.30746459960938 37.98568344116211 51.70771408081055 37.42778396606445 54.14023971557617 36.88602828979492 C 56.17624282836914 36.43148803710938 58.19573593139648 35.99385452270508 60.14260101318359 35.5861930847168 C 67.76676177978516 33.98705291748047 75.58726501464844 32.54236602783203 83.38703155517578 31.29133605957031 C 140.6937103271484 22.09607315063477 230.360595703125 17.88804244995117 332.09521484375 50.06224060058594 C 332.2976684570313 50.12602233886719 332.4098205566406 50.34195327758789 332.345703125 50.54405212402344 C 332.2953491210938 50.70389556884766 332.1470642089844 50.81262969970703 331.9795532226563 50.81262969970703 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+
+		<div id="MobileCheckoutLinkReceipt__3dp">
+			<div id="Group_4531dp">
+				<div id="chpterdp">
+					<span>ColTech Inc.</span>
+				</div>
+				<div id="Textdp">
+					<span>©</span>
+				</div>
+				<div id="Contactdp">
+					<span>Contact</span>
+				</div>
+				<div id="Privacy_Policydp">
+					<span>Privacy Policy</span>
+				</div>
+			</div>
+			<div id="Group_6564dp">
+				<svg class="Path_9142dp" viewBox="0 0 366 89">
+					<path id="Path_9142dp"
+						d="M 10 0 L 356 0 C 361.5228576660156 0 366 4.477152347564697 366 10 L 366 89 L 0 89 L 0 10 C 0 4.477152347564697 4.477152347564697 0 10 0 Z">
+					</path>
+				</svg>
+				<div id="Group_5188dp">
+					<!-- <svg class="Path_9133dp" viewBox="0 0 328.06 170.531">
+					<path id="Path_9133dp" d="M 13.3357572555542 0 L 314.7239074707031 0 C 322.0890197753906 0 328.0596313476562 7.026021957397461 328.0596313476562 15.69305896759033 L 328.0596313476562 170.53125 L 320.5647888183594 165.6864166259766 L 313.573486328125 170.53125 L 306.2483825683594 165.6864166259766 L 299.2162780761719 170.53125 L 292.1164855957031 165.6864166259766 L 285.0044860839844 170.53125 L 277.8456420898438 165.6864166259766 L 270.8209533691406 170.53125 L 263.6829223632812 165.6864166259766 L 256.4429016113281 170.53125 L 249.498046875 165.6864166259766 L 242.287109375 170.53125 L 235.3123016357422 165.6864166259766 L 228.2593841552734 170.53125 L 221.0115356445312 165.6864166259766 L 213.97900390625 170.53125 L 206.7098999023438 165.6864166259766 L 199.6556549072266 170.53125 L 192.6422271728516 165.6864166259766 L 185.4139251708984 170.53125 L 178.3080291748047 165.6864166259766 L 171.3032836914062 170.53125 L 164.0476226806641 165.6864166259766 L 157.0359191894531 170.53125 L 149.9942779541016 165.6864166259766 L 142.7533874511719 170.53125 L 135.6934967041016 165.6864166259766 L 128.6184387207031 170.53125 L 121.4257278442383 165.6864166259766 L 114.3376312255859 170.53125 L 107.1475143432617 165.6864166259766 L 100.0485763549805 170.53125 L 92.89622497558594 165.6864166259766 L 85.80509948730469 170.53125 L 78.82379913330078 165.6864166259766 L 71.83901214599609 170.53125 L 64.595947265625 165.6864166259766 L 57.61246871948242 170.53125 L 50.33032989501953 165.6864166259766 L 43.32775497436523 170.53125 L 35.99308776855469 165.6864166259766 L 28.94753837585449 170.53125 L 21.83860397338867 165.6864166259766 L 14.86771965026855 170.53125 L 7.671099662780762 165.6864166259766 L 0 170.53125 L 0 15.69305896759033 C 0 7.026021957397461 5.970622539520264 0 13.3357572555542 0 Z">
+					</path>
+				</svg> -->
+					<div id="Group_5248dp">
+						<div id="Group_5234dp">
+							<div id="Group_4810dp">
+
+								<div id="Product_Detailsdp">
+									<div id="Group_5320dp">
+
+										<div id="ID22628_eidp">
+											<span></span>
+										</div>
+										<div id="ID22628_ejdp">
+											<span>Quantity : </span>
+										</div>
+										<div id="Ksh_1555000dp">
+											<span>Ksh 4,500.00</span>
+										</div>
+										<svg class="Path_9110_eldp" viewBox="0 0 302.172 0.5">
+											<path id="Path_9110_eldp" d="M 0 0 L 302.1719055175781 0">
+											</path>
+										</svg>
+
+										<div id="ID22628_eidp">
+											<span></span>
+										</div>
+										<div id="ID22628_ejdp">
+											<span>Quantity : </span>
+										</div>
+										<div id="Ksh_1555000dp">
+											<span>Ksh 4,500.00</span>
+										</div>
+										<svg class="Path_9110_eldp" viewBox="0 0 302.172 0.5">
+											<path id="Path_9110_eldp" d="M 0 0 L 302.1719055175781 0">
+											</path>
+										</svg>
+
+										<div id="ID22628_eidp">
+											<span></span>
+										</div>
+										<div id="ID22628_ejdp">
+											<span>Quantity : </span>
+										</div>
+										<div id="Ksh_1555000dp">
+											<span>Ksh 4,500.00</span>
+										</div>
+										<svg class="Path_9110_eldp" viewBox="0 0 302.172 0.5">
+											<path id="Path_9110_eldp" d="M 0 0 L 302.1719055175781 0">
+											</path>
+										</svg>
+
+										<div id="ID22628_eidp">
+											<span></span>
+										</div>
+										<div id="ID22628_ejdp">
+											<span>Quantity : </span>
+										</div>
+										<div id="Ksh_1555000dp">
+											<span>Ksh 4,500.00</span>
+										</div>
+										<svg class="Path_9110_eldp" viewBox="0 0 302.172 0.5">
+											<path id="Path_9110_eldp" d="M 0 0 L 302.1719055175781 0">
+											</path>
+										</svg>
+
+									</div>
+								</div>
+								<div id="Pricing_Detailsdp">
+									<div id="Group_5218dp">
+										<div id="ID22628dp">
+											<span>Delivery</span>
+										</div>
+										<div id="Ksh_14900_dp">
+											<!-- <span>Ksh. </span> -->
+											<span>Ksh. 0.00</span>
+										</div>
+										<svg class="Path_9108dp" viewBox="0 0 302.172 0.5">
+											<path id="Path_9108dp" d="M 0 0 L 302.1719055175781 0">
+											</path>
+										</svg>
+									</div>
+									<div id="Group_5240dp">
+										<div id="ID22628_dzdp">
+											<span>Service</span>
+										</div>
+										<div id="Ksh_14900_ddp">
+											<span>Ksh. 0.00</span>
+										</div>
+										<svg class="Path_9108_ddp" viewBox="0 0 302.172 0.5">
+											<path id="Path_9108_ddp" d="M 0 0 L 302.1719055175781 0">
+											</path>
+										</svg>
+									</div>
+									<div id="Group_5241dp">
+										<div id="ID22628_epdp">
+											<span>Total</span>
+										</div>
+										<div id="Ksh_1504900dp">
+											<span>Ksh. 4,500.00</span>
+										</div>
+										<!-- <svg class="Path_9109_er" viewBox="0 0 302.172 0.5">
+										<path id="Path_9109_er" d="M 0 0 L 302.1719055175781 0">
+										</path>
+									</svg> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Group_5717dp">
+					<div id="Group_4930dp">
+
+						<div id="Alldp">
+							<span>fullname</span>
+						</div>
+						</a>
+						<div id="n_54723767380dp">
+							<span>+</span>
+						</div>
+						<!-- <div id="Thank_you_for_everything_mate">
+						<span>Thank you for everything mate!</span>
+					</div> -->
+					</div>
+					<div id="Group_5716dp">
+						<div id="Group_4933dp">
+							<div id="Codedp">
+								<span>Code: </span>
+							</div>
+							<div id="JSLADD-0001dp">
+								<span></span>
+							</div>
+						</div>
+						<div id="Group_4932dp">
+							<div id="Issueddp">
+								<span>Date: </span>
+							</div>
+							<div id="n_3_Oct_2021_705_amdp">
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Group_5195dp">
+
+					<div id="Drip_Citydp">
+						<span>PSYCHOLOGIST RECHAEL MBUGWA</span>
+					</div>
+
+					<div id="the_hottest_merchandise_in_towdp">
+						<span>Therapy services</span>
+					</div>
+
+					<div id="All_fqdp">
+						<span>Receipt from PSYCHOLOGIST RECHAEL MBUGWA</span>
+					</div>
+
+				</div>
+				<div id="Group_5715dp">
+					<div id="All_fudp">
+						<span>Something wrong? Contact us at: </span><span style="color:rgba(69,87,165,1);">
+							mbugwarechael@gmail.com</span>
+					</div>
+
+					<div id="Group_4926dp">
+						<div id="powered_bydp">
+							<span>powered by</span>
+						</div>
+						<div id="chpter_fxdp">
+							<span>ColTech Inc.</span>
+						</div>
+						<div id="Group_4701dp">
+							<div id="n____Learn_more_about_chpter_cdp">
+								<span>| Learn more about chpter checkout</span>
+							</div>
+						</div>
+					</div>
+
+
+					<div id="Visit_our_pages_to_more_informdp">
+						<span>Visit our pages for more information on new products.</span>
+					</div>
+					<div id="Group_5476dp">
+					</div>
+				</div>
+				<div id="Group_5718dp">
+					<div id="Thank_you_for_your_payment_Herdp">
+						<span>Thank you for your payment! Here is your summary.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
